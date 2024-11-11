@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* .open-btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.offcanvas{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 280px;
+    height: ;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s ease;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.offcanvas nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.offcanvas nav ul li{
+    margin: 15px 0;
+}
+
+.offcanvas nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.close-btn{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+.offcanvas.open{
+    left: 0;
+}
+
+.purchase-section{
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #fff;
+    text-align: center;
+}
+
+.purchase-section h3{
+    color: #f4e542;
+    font-size: 20px;
+    margin-top: -55px;
+}
+
+.purchase-section p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.purchase-link{
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+.purchase-link:hover{
+    background-color: #d32f2f;
+    cursor: pointer;
+} */
+
+header {
+    margin: 0%;
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+    align-items: center center center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    /* margin-top: 10px; */
+    margin-bottom: -10px;
+    height: 60px;
+    /* margin-left: /0px; */
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center center;
+    margin-left: 390px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #005b96;
+    color: white;
+}
+
+.intro h1 {
+    font-size: 3em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #ff6700;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+h2{
+    text-align: center;
+    margin-left: 300px;
+    display: flex;
+    color: #005b96;
+}
+
+.box{
+    margin-top: 70px;
+    display: flex;
+    margin-left: -1000px;
+    width: 700px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-card h3 {
+    color: #005b96;
+    margin-bottom: 15px;
+    font-size: 22px
+}
+
+.product-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+button[type=btn]{
+    background-color: #005b96;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button[type=btn]:hover{
+    background-color: #004477;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about h2 {
+    color: #005b96;
+    margin-bottom: 20px;
+    margin-left: 610px;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+
+@media (max-width :768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-card{
+        width: 100%;
+    }
+}

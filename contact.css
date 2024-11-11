@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 60px;
+}
+
+/* Header and Navigation */
+header {
+    width: 100%;
+    /* display: sticky; */
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    Z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.contact h2{
+    margin-top: -20px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input:hover{
+    border: 2px solid red;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea:hover{
+    border: 2px solid red;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #005b96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.contact button:hover {
+    background-color: #004477;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width :768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+}
